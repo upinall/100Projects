@@ -2,7 +2,7 @@ import cv2 # import openCV
 
 # define video output variable.
 
-vid = cv2.VideoCapture(1) # the one signifies which camera to utilize. (0 for first camera, 1 for second camera, 2, 3 and so on.)
+vid = cv2.VideoCapture(1, cv2.CAP_DSHOW) # the one signifies which camera to utilize. (0 for first camera, 1 for second camera, 2, 3 and so on.)
 
 i = 0 # frame counter
 
